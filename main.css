@@ -201,6 +201,8 @@ border-color: white;
 
 }
 
+
+
 .content{
 
 }
@@ -217,18 +219,31 @@ border-color: white;
 
 }
 
+
 .image{
 /*  -webkit-box-shadow: -7px 10px 20px -10px rgba(0,0,0,0.81);
   box-shadow: -7px 10px 20px -10px rgba(0,0,0,0.81); */
 }
 
-.card-content{
+.card-content {
   text-align: justify;
+
 }
+
+.card-content > subtitle, .card-content > .card-header-title {
+  text-align: justify;
+  color: rgb(33,37,41);
+
+}
+
+
+
 .card-header .card-header-title{
   align-content: center;
   justify-content: center;
   text-align: justify;
+  background-color: rgb(33,37,41);
+  color: rgb(33,37,41);
 }
 
 .btn-container{
