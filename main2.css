@@ -87,13 +87,12 @@ div{
 
 }
 
-
 .heroone {
   background: #5433ff; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #5433ff, #20bdff, #a5fecb); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #5433ff, #20bdff, #a5fecb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 5px;
-  padding-bottom: 5px;
+  padding-bottom: 0px;
   background-size: cover;
   background-blend-mode: normal;
 
@@ -110,7 +109,6 @@ div{
     background: linear-gradient(to right, #5433ff, #20bdff, #a5fecb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 5px;
     padding-top: 0px;
-    padding-bottom: 5px;
     background-size: cover;
     background-blend-mode: normal;
     overflow: hidden;
@@ -120,80 +118,6 @@ div{
 
 
 }
-
-.herothree{
-    background: #5433ff; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #5433ff, #20bdff, #a5fecb); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #5433ff, #20bdff, #a5fecb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding: 5px;
-    padding-top: 0px;
-    padding-bottom: 5px;
-    background-size: cover;
-    background-blend-mode: normal;
-    overflow: hidden;
-    object-fit: contain;
-    font-family:  "IBM Plex Sans", sans-serif;
-    font-color: #202020;
-
-
-}
-
-.homespaces{
-  background: #FF416C;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-padding: 5px;
-  padding-top: 5px;
-  background-size: cover;
-  background-blend-mode: normal;
-  overflow: hidden;
-  object-fit: contain;
-  font-family:  "IBM Plex Sans", sans-serif;
-  font-color: #202020;
-}
-
-
-.rescue{
-  background: #36D1DC;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  padding-top: 5px;
-  background-size: cover;
-  background-blend-mode: normal;
-  overflow: hidden;
-  object-fit: contain;
-  font-family:  "IBM Plex Sans", sans-serif;
-  font-color: #202020;
-}
-
-.gstar{
-  background: #FF5F6D;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  padding-top: 5px;
-  background-size: cover;
-  background-blend-mode: normal;
-  overflow: hidden;
-  object-fit: contain;
-  font-family:  "IBM Plex Sans", sans-serif;
-  font-color: #202020;
-}
-
-.spotify{
-  background: #1D976C;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #93F9B9, #1D976C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-padding-top: 5px;
-  background-size: cover;
-  background-blend-mode: normal;
-  overflow: hidden;
-  object-fit: contain;
-  font-family:  "IBM Plex Sans", sans-serif;
-  font-color: #202020;
-}
-
 
 
 .fab {
@@ -315,50 +239,27 @@ border-color: white;
 
 
 .card-header .card-header-title{
-  align-content: justify;
-  justify-content: justify;
+  align-content: center;
+  justify-content: center;
   text-align: justify;
   background-color: rgb(33,37,41);
   color: rgb(33,37,41);
 }
 
 .btn-container{
-
+  padding: 1em;
   text-align:justify;
 }
 
 .button{
-  align: center;
   margin-left: auto;
-  margin-right: auto;
-
+margin-right: auto;
 }
 
 .portcard{
   padding-bottom: 2em;
   border-width: medium;
-    background-color: rgba(255, 0, 0, 0.0);
-}
 
-
-.portcard1{
-  border-width: medium;
-  background-color: rgba(255, 0, 0, 0.0);
-
-}
-
-.portcard1 > div, .portcard1 > figure , .portcard1 > .image{
-
-  background-color: rgba(255, 0, 0, 0.0);
-
-}
-
-.content-p{
-justify-content: center;
-align-content: center;
-margin-bottom: auto;
-margin-top: auto;
-  background-color: rgba(255, 0, 0, 0.0);
 }
 
 .columns{
