@@ -204,7 +204,7 @@ ul li{
   align-items: center;
   align-self: center;
   align-content: center;
-  background: url("assets/BG.png");
+  background-color: white;
 
 }
 
@@ -229,17 +229,17 @@ border-color: white;
   align-content: center;
   justify-content: center;
 
-  border: 1px black;
+  border: 2px black;
   max-width: 100%;
    height: auto;
-  /* -webkit-box-shadow: 7px 10px 20px -10px rgba(0,0,0,0.81);
- box-shadow: 7px 10px 20px -10px rgba(0,0,0,0.81); */
+ -webkit-box-shadow: 7px 10px 20px -10px rgba(0,0,0,0.81);
+ box-shadow: 7px 10px 20px -7px rgba(0,0,0,0.81);
 
 }
 
 .image{
-/*  -webkit-box-shadow: -7px 10px 20px -10px rgba(0,0,0,0.81);
-  box-shadow: -7px 10px 20px -10px rgba(0,0,0,0.81); */
+ -webkit-box-shadow: -7px 10px 20px -10px rgba(0,0,0,0.81);
+  box-shadow: -7px 10px 20px -10px rgba(0,0,0,0.81);
 }
 
 .card-content{
@@ -264,6 +264,10 @@ margin-right: auto;
 .portcard{
   padding-bottom: 2em;
   border-width: medium;
+  background: #5433ff00; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5433ff, #20bdff, #a5fecb, 0.0); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5433ff, #20bdff, #a5fecb, 0.0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 }
 
