@@ -11,7 +11,7 @@
 
 body{
 
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   color: black;
   opacity: 0;
   -webkit-animation: fadeout 1s; /* Safari, Chrome and Opera > 12.1 */
@@ -30,13 +30,13 @@ body{
 
 
 @font-face {
-    font-family: 'IBM Plex Sans';
+    font-family: 'Work Sans';
     src: url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300')
     font-weight: 300;
 }
 
 @font-face {
-    font-family: 'IBM Plex Sans';
+    font-family: 'Work Sans';
     src: url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:500')
     font-weight: 500;
 }
@@ -98,7 +98,7 @@ div{
 
   overflow: hidden;
   object-fit: contain;
-  font-family:  "IBM Plex Sans", sans-serif;
+  font-family:  "Work Sans", sans-serif;
   font-color: #202020;
 
 }
@@ -112,7 +112,7 @@ div{
     background-blend-mode: normal;
     overflow: hidden;
     object-fit: contain;
-    font-family:  "IBM Plex Sans", sans-serif;
+    font-family:  "Work Sans", sans-serif;
     font-color: #202020;
 
 
@@ -472,7 +472,7 @@ margin-bottom: auto;
 
 
 .hovereffect: hover h1 {
-  font-family: 'IBM Plex Sans';
+  font-family: 'Work Sans';
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
