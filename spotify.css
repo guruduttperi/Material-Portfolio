@@ -155,50 +155,8 @@ div{
 
 }
 
-.homespaces{
-  background: #7b4397;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #dc2430, #7b4397);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #dc2430, #7b4397); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-padding: 5px;
-  padding-top: 5px;
-  background-size: cover;
-  background-blend-mode: normal;
-  overflow: hidden;
-  object-fit: contain;
-  font-family:  "Work Sans", sans-serif;
-  font-color: #202020;
-
-}
 
 
-.rescue{
-  background: #36D1DC;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  padding-top: 5px;
-  background-size: cover;
-  background-blend-mode: normal;
-  overflow: hidden;
-  object-fit: contain;
-  font-family:  "Work Sans", sans-serif;
-  font-color: #202020;
-}
-
-.gstar{
-  background: #FF5F6D;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  padding-top: 5px;
-  background-size: cover;
-  background-blend-mode: normal;
-  overflow: hidden;
-  object-fit: contain;
-  font-family:  "Work Sans", sans-serif;
-  font-color: #202020;
-}
 
 .spotify{
   background: #11998e;  /* fallback for old browsers */
@@ -215,11 +173,9 @@ background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, F
 }
 
 
-.indifilm{
-  background: #4568DC;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+.darker{
+  background: hsl(0, 0%, 14%);  /* fallback for old browsers */
   padding-top: 5px;
   background-size: cover;
   background-blend-mode: normal;
@@ -230,21 +186,8 @@ background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, F
 }
 
 
-.showkali{
-  background: #1c92d2;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-  padding-top: 5px;
-  background-size: cover;
-  background-blend-mode: normal;
-  overflow: hidden;
-  object-fit: contain;
-  font-family:  "Work Sans", sans-serif;
-  font-color: #202020;
 }
-
-
 
 .fab {
 
